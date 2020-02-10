@@ -42,7 +42,7 @@ class Response {
 	/**
 	 * Adds error to the response
 	 *
-	 * @since  [Next]
+	 * @since  1.0.0
 	 * @param  string $message Error message, optional.
 	 * @return $this
 	 */
@@ -54,7 +54,7 @@ class Response {
 	/**
 	 * Gets all errors
 	 *
-	 * @since  [Next]
+	 * @since  1.0.0
 	 * @return array
 	 */
 	public function get_errors() {
@@ -64,7 +64,7 @@ class Response {
 	/**
 	 * Sends the error
 	 *
-	 * @since  [Next]
+	 * @since  1.0.0
 	 * @param  string $message Error message, optional.
 	 * @return void
 	 */
@@ -75,7 +75,7 @@ class Response {
 	/**
 	 * Sends the response
 	 *
-	 * @since  [Next]
+	 * @since  1.0.0
 	 * @param  mixed $success_message Success message.
 	 *                                Default: null.
 	 * @return void
