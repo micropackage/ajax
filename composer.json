@@ -1,0 +1,38 @@
+{
+	"name": "micropackage/ajax",
+	"description": "Wrapper for WordPress' AJAX",
+	"license": "GPL-3.0-or-later",
+	"authors": [
+		{
+			"name": "Jakub Mikita",
+			"email": "jakub@bracketspace.com"
+		}
+	],
+	"scripts": {
+		"phpcs": "phpcs",
+		"phpcbf": "phpcbf",
+		"phpunit": "phpunit",
+		"phpunit-coverage": "phpunit --coverage-text",
+		"setup-local-tests": "bash bin/install-wp-tests.sh wordpress_test root root localhost latest"
+	},
+	"require": {
+		"php": ">=5.6"
+	},
+	"require-dev": {
+		"dealerdirect/phpcodesniffer-composer-installer": "^0.5.0",
+		"phpcompatibility/php-compatibility": "^9.1",
+		"wp-coding-standards/wpcs": "^2.0",
+		"phpunit/phpunit": "^6.5.5",
+		"php-mock/php-mock-phpunit": "^2.6"
+	},
+	"autoload": {
+		"psr-4" : {
+			"Micropackage\\Ajax\\" : "src"
+		}
+	},
+	"autoload-dev": {
+		"psr-4" : {
+			"Micropackage\\Ajax\\Test\\" : "tests"
+		}
+	}
+}
