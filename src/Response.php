@@ -88,7 +88,7 @@ class Response {
 			wp_send_json_error( $errors );
 		}
 
-		wp_send_json_success( $errors );
+		wp_send_json_success( $success_message );
 
 	}
 
