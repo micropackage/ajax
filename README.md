@@ -6,6 +6,10 @@
 [![Total Downloads](https://poser.pugx.org/micropackage/ajax/downloads)](https://packagist.org/packages/micropackage/ajax)
 [![License](https://poser.pugx.org/micropackage/ajax/license)](https://packagist.org/packages/micropackage/ajax)
 
+<p align="center">
+    <img src="https://bracketspace.com/extras/micropackage/micropackage-small.png" alt="Micropackage logo"/>
+</p>
+
 ## 🧬 About Ajax
 
 This micropackage is a wrapper for WordPress AJAX responses in PHP.
